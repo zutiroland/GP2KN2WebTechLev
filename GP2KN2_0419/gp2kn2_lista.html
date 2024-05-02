@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GP2KN2 lista</title>
+</head>
+
+<body>
+    <h2>a.) Rendezetlen lista</h2>
+
+    <h1>Listák készítése</h1>
+
+    <ul style="font-size: 20px;">
+        <li>piros</li>
+        <li>kék</li>
+        <li>sárga</li>
+        <li>barna</li>
+    </ul>
+
+    <ul style="color: blue; font-size: 24px; list-style-type:circle; margin-left: -4px;">
+        <li>sárga</li>
+        <li>fehér</li>
+        <li>zöld</li>
+        <li>kék</li>
+    </ul>
+
+    <h2>b.) Rendezett lista</h2>
+    <ol style="font-size: 20px;">
+        <li>pink</li>
+        <li>kék</li>
+        <li>sárga</li>
+        <li>barna</li>
+    </ol>
+
+    <h2>c.) Nagybetűk</h2>
+    <ol style="list-style-type: upper-latin; font-size: 20px;">
+        <li>pink</li>
+        <li>kék</li>
+        <li>sárga</li>
+        <li>barna</li>
+    </ol>
+
+    <h2>d.) Római számok</h2>
+    <ol style="list-style-type: upper-roman; font-size: 20px;">
+        <li>I. ÉVF</li>
+        <li>II. ÉVF</li>
+        <li>III. ÉVF</li>
+    </ol>
+
+    <h2>e.) Inline stílus legyen</h2>
+    <ol class="inline">
+        <li>sárga</li>
+        <li>pink</li>
+        <li>bíbor</li>
+        <li>türkíz</li>
+    </ol>
+
+    <style>
+        .inline {
+            list-style-type: upper-latin;
+            color: red;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+        }
+    </style>
+
+    <h2>f.) HTML Description Lists</h2>
+    <dl style="color:mediumturquoise; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <style>
+            dt { font-weight: bold; }
+        </style>
+
+        <dt>Kutya</dt>
+            <dd>Legjobb négylábú barát</dd>
+            <br>
+        <dt>Futócípő</dt>
+            <dd>Jó futni !</dd>
+            <br>
+        <dt>Kerékpár</dt>
+            <dd>Jó tekerni !</dd>
+            <dd>Szép helyeket látni !</dd>
+            <br>
+    </dl>
+
+    <h2>g.) Beágyazott HTML listák</h2>
+    <h3 style="color:fuchsia ; font-size: 28px;">Kedvenc reggeli italaim</h3>
+    <ul style="font-size: 22px;">
+        <li>Kávé</li>
+        <li>Tea
+            <ul>
+                <li>Fekete tea</li>
+                <li>Zöld tea</li>
+            </ul>
+        </li>
+        <li>Tej</li>
+    </ul>
+
+    <h2>h.) Control List Counting</h2>
+    <ol start="5"; ol style="font-size: 28px;">
+        <li>KL</li>
+        <li>EL</li>
+        <li>BL</li>
+    </ol>
+
+</body>
+
+</html>
