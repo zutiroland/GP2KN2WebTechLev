@@ -1,33 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GP2KN2 JSON to JavaScript</title>
+    <title>GP2KN2 xml</title>
     
 </head>
+
 <body>
-    <h1> JSON megvalósítása – JavaScript</h1>
-    <br><br>
-    <p id="test"></p>
-    <script>
-        let obj={
-            "book": [
-                {
-                    "title": "Java 2 I-II. - Útikalauz programozóknak 5.0",
-                    "author": "Nyékyné Dr. Gaizler Judit",
-                    "year": 2009
-                },
-                {
-                    "title": "C# programozás lépésről lépésre",
-                    "author": "Reiter István",
-                    "year": 2018
-                }
-            ]
-  }
-  for (let i = 0;i<obj.book.length;i++) {
-    document.getElementById("test").innerHTML += "<br>"+obj.book[i].title+" ;"+obj.book[i].author+" ;"+obj.book[i].year+"<br>";
-  }
+    <script language = "JavaScript">
+        document.write("<h2> JSON megvalósítása - JavaScript</h2>")
+        var obj1 = {"language": "Java I-II. - Útikalauz programozóknak 5.0" , "author" : "Nyékné Dr. Gaizler Judit"};
+
+        document.write("<h3>Language: " + obj1.language+"</h3>");
+        document.write("<h3>Author: " + obj1.author+"</h3>");
+
+        var obj2 = {"language": "Adatkezelés XML környezetben" , "author" : "Dr. Kovács József"};
+        document.write("<h3>Language: " + obj2.language+"</h3>");
+        document.write("<h3>Author: " + obj2.author+"</h3>");
+
+        document.write("<hr />");
+        document.write(obj2.language + " OOP, " + " a könyv szerkeztője: " + obj2.author)
+        document.write("<hr />");
     </script>
 </body>
-</html>
