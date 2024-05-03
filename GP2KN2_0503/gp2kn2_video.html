@@ -16,7 +16,7 @@
 <body>
     <header id="header" style="font-size: xx-large;">Video Lejátszása - GP2KN2</header>
     <br><br>
-    <video id="KK" width="500px" height="fit-content" controls>
+    <video id="videom" width="500px" height="fit-content" controls>
         <source src="gp2kn2_video.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video>
@@ -54,11 +54,12 @@
             
         </span>
       </footer>
+
       <script> 
-        var myVideo = document.getElementById("KK"); 
+        var myVideo = document.getElementById("videom"); 
         
           function playPause() { 
-            if (KK.paused) 
+            if (videom.paused) 
               myVideo.play(); 
               
             else 
