@@ -27,11 +27,11 @@
         document.getElementById("gp2kn2").innerHTML =ZRObj.name +" ;"+ZRObj.age;
         for (var i = 0;i<ZRObj.cars.length;i++) {
             document.getElementById("gp2kn2").innerHTML +="<br><h3>"+ZRObj.cars[i].name+";</h3>  models: ";
+            
             for (var j = 0;j<ZRObj.cars[i].models.length;j++) {
-            document.getElementById("gp2kn2").innerHTML += ZRObj.cars[i].models[j]+" ; ";
+                document.getElementById("gp2kn2").innerHTML += ZRObj.cars[i].models[j]+" ; ";
             }
         }
-        
         
     </script>
 </body>
