@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="4.js"></script>
+    
+    <title>GP2KN2 jQuery4</title>
+</head>
+<body>
+    <h1 id="fejlec">jQuery feladatok</h1>
+    <p style="font-size: large;">A jQuery egy JavaScript programozói könyvtár, amelyet John Resig kezdett fejleszteni. Kattints ide, és eltűnik!</p>
+    <p style="font-size: large;">Elterjedtnek tekinthető, segítségével könnyen bejárható egy HTML oldal DOM-ja. Kattints ide duplán, és eltűnik!</p>
+    <br>
+    <button id="elrejt"><strong>Elrejt</strong></button>
+    <button id="megjelenit"><strong>Megjelenít</strong></button>
+    <button id="elrejtMegjelenit"><strong>Elrejt/Megjelenít</strong></button>
+    <br>
+    <div id="keret" style="width: 320px; height: 250px; border: 0px solid black; padding: 20px;">
+        <form id="regForm" style="width: 100%; height: 100%;">
+            <label for="nev">Név:</label>
+            <input type="text" id="nev" name="nev" style="width: 100%; height: 20px; margin-bottom: 10px;"><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" style="width: 100%; height: 20px; margin-bottom: 10px;"><br>
+            
+            <label for="jelszo">Jelszó:</label>
+            <input type="password" id="jelszo" name="jelszo" style="width: 100%; height: 20px; margin-bottom: 10px;"><br>
+            
+            <input type="button" id="jelentkezes" value="Jelentkezés">
+        </form>
+    </div>
+
+    <button id="attetszosseg01"><strong>Áttetszőség = 0.1</strong></button>
+    <button id="attetszosseg05"><strong>Áttetszőség = 0.5</strong></button>
+    <button id="attetszosseg08"><strong>Áttetszőség = 0.8</strong></button>
+    <br><br>
+    <button id="formElrejt"><strong>Elrejt</strong></button>
+    <button id="formMegjelenit"><strong>Megjelenít</strong></button>
+    <button id="formElrejtMegjelenit"><strong>Elrejt/Megjelenít</strong></button>
+
+    
+</body>
+</html>
