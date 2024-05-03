@@ -29,7 +29,7 @@ $(document).ready(function(){
   $("#gomb5").click(function(){
     $("#lista11").hide();
     $("#lista21").hide();
-    $("table tr:even").hide();
+    $("table tr:odd").hide();
     $("#link").hide();
   });
 });
