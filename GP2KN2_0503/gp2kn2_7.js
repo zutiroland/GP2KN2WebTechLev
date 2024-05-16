@@ -36,16 +36,16 @@ $(document).ready(function() {
         $('#box').after('<button>ME GEIK-MI</button>');
     });
 
-    $('#alcim').click(function() {
-        $('#form_fejlec').text('HTML metódusok');
+    $('#fejlec').click(function() {
+        $('#form_fejlec').text('ŰRLAP-GP2KN2');
     });
 
-    $('#fejlec').click(function() {
+    $('#alcim').click(function() {
         $('body').prepend('<h1>jQuery feladat</h1>');
     });
 
     $('#urlap_fejlec').click(function() {
-        $('body').prepend('<h2>ŰRLAP - GP2KN2</h2>');
+        $('body').prepend('<h2>HTML - add elements</h2>');
     });
 
     $('#gomb').click(function() {
