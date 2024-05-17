@@ -1,11 +1,11 @@
 {
-  "BL_orarend": {
+  "orarend": {
     "kurzus": [
       {
         "kurzusnev": "Web technológia alapjai",
         "idopont": {
-          "nap": "Hétfő",
-          "tol": 14,
+          "nap": "Péntek",
+          "tol": 12,
           "ig": 16
         },
         "helyszin": "In103",
@@ -30,11 +30,11 @@
       {
         "kurzusnev": "Adatbázis rendszerek II",
         "idopont": {
-          "nap": "Szerda",
-          "tol": 10,
-          "ig": 12
+          "nap": "Péntek",
+          "tol": 16,
+          "ig": 20
         },
-        "helyszin": "In107",
+        "helyszin": "In101",
         "oktato": "Szűcs Miklós",
         "szak": "Informatika",
         "cim": {
@@ -56,11 +56,11 @@
       {
         "kurzusnev": "Java Programozás",
         "idopont": {
-          "nap": "Kedd",
-          "tol": 16,
-          "ig": 18
+          "nap": "Szombat",
+          "tol": 8,
+          "ig": 12
         },
-        "helyszin": "In201",
+        "helyszin": "In101",
         "oktato": "Szűcs Miklós",
         "szak": "MI",
         "cim": {
@@ -83,10 +83,10 @@
         "kurzusnev": "Fizika",
         "idopont": {
           "nap": "Csütörtök",
-          "tol": 8,
-          "ig": 10
+          "tol": 12,
+          "ig": 16
         },
-        "helyszin": "In205",
+        "helyszin": "XXX",
         "oktato": "Dr. Pszota Gábor",
         "szak": "Informatika",
         "cim": {
