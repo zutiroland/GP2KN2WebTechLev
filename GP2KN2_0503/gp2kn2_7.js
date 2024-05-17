@@ -45,7 +45,7 @@ $(document).ready(function() {
     });
 
     $('#alcim').click(function() {
-        $('body').prepend('<h2>HTML - add elements</h2>');
+        $('body').prepend('<h2>HTML - Add elements</h2>');
     });
 
     $('#gomb').click(function() {
